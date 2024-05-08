@@ -1,12 +1,14 @@
 import './App.css'
 import crewmates from './assets/crewmates.png'
 import spaceship from './assets/spaceship.png'
+import SideNav from './components/SideNav'
 
 function App() {
   
 
   return (
     <div>
+      <SideNav />
       <div className="whole-page">
         <div>
           <div className="home-page">
